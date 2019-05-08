@@ -22,3 +22,14 @@ Setup :
 	c.	All the mock data for junits are available under src/test/resources folder
 4.	Start the boot jar 
 	a.	It will try to use 9001 port. If needed we can change the port number in the application.properties 
+
+
+Generate Coverage or Test Report:
+
+1. Go under the the service project folder.
+2. Run the below gradle command "gradle clean build"
+3. The result will be generated under below path
+
+		
+			Test Coverage : build/reports/tests/test/index.html
+			Jacoco Report : build/reports/tests/jacoco/html/index.html
